@@ -51,13 +51,13 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Donkey-Chela/Build"; // <<--- ¡LÍNEA CORREGIDA!
-      var loaderUrl = buildUrl + "/Donkey Chela - Web.loader.js";
+      var buildUrl = "Build"; // <<--- ¡RUTA REVERTIDA A LA CARPETA LOCAL!
+      var loaderUrl = buildUrl + "/Donkey-Chela-Web.loader.js"; // <<--- ¡NOMBRE DE ARCHIVO CORREGIDO!
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Donkey Chela - Web.data.gz",
-        frameworkUrl: buildUrl + "/Donkey Chela - Web.framework.js.gz",
-        codeUrl: buildUrl + "/Donkey Chela - Web.wasm.gz",
+        dataUrl: buildUrl + "/Donkey-Chela-Web.data.gz", // <<--- ¡NOMBRE DE ARCHIVO CORREGIDO!
+        frameworkUrl: buildUrl + "/Donkey-Chela-Web.framework.js.gz", // <<--- ¡NOMBRE DE ARCHIVO CORREGIDO!
+        codeUrl: buildUrl + "/Donkey-Chela-Web.wasm.gz", // <<--- ¡NOMBRE DE ARCHIVO CORREGIDO!
         streamingAssetsUrl: "StreamingAssets",
         companyName: "WinisTeam",
         productName: "Donkey Chela - Demo",
